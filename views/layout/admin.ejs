@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= locals.title %></title>
+    <meta name="description" content="<%= locals.description %>">
+    <link rel="stylesheet" href="/css/styleindexing.css">
+    <script type="text/javascript" defer src="/js/index.js"></script>
+    <script type="text/javascript" defer src="/js/script.js"></script>
+</head>
+<body>
+
+    <div class="surround">
+       
+        <%- include('../partials/header_admin') %> 
+       
+        <%- body %>
+    </div>
+ <%- include('../partials/footy') %>
+</body>
+</html>
