@@ -1,0 +1,15 @@
+<header class="header">
+<h2>BrightCalmIllustrations devoltution to hasbyjim and articles on trailtour and news</h2>
+<a href="/" class="header__logo">admin</a>
+<nav class="header__nav">
+    <ul>
+        <li><a href="/" class="">Home</a></li>
+        <li><a href="/about" class="">About</a></li>
+        <li><a href="/dailydose" class="">DailyDose</a></li>
+        <li><a href="/profile" class="">Profile</a></li>
+    </ul>
+    <div class="header__btn">
+        <button class="logonBtn" aria-expanded="false">logon</button>
+       
+     </nav> 
+</header>
