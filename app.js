@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 
 const session = require('express-session')
 const app =express();
-const PORT = 5000// || process.env.PORT;//the one of the online resource hoster
+const PORT =  process.env.PORT; //||5000 
 connectDB();
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
