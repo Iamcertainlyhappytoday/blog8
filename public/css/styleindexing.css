@@ -1,0 +1,27 @@
+body{display: flex;flex-direction: column;align-items: center;
+color: blue;width: 98vw;}
+.col{display: flex; flex-direction: column;align-items: center;}
+.surrounda{border: 2px lightgreen solid; display: flex;}
+.surround{border: 2px lightgreen solid; display: flex;flex-direction: column;
+     margin: auto;}
+#milantower{display: flex;max-width:500px;}
+header{display: flex;flex-direction: column;margin: auto;}
+.header__btn{display: flex;flex-direction: row;margin: 2px auto;}
+.searchBtn{color: aliceblue; background-color: blue;}
+#logocase{display: flex; max-width:30px; max-height:20px; }
+.hundred img{display:flex; width: 100%; height:100%;}
+.hundred{display:flex; width: 100%; height:100%; }
+#poli{height:20px; width:30px; background-color: blue;display: flex;}
+.circle  {background-color: aliceblue;position: absolute;color: aliceblue;
+            clip-path: circle(35% at 65% 45%); width:30px; height:20px;   } 
+.author{display: flex;flex-direction:column;}
+.articles{display: flex;flex-direction: column;}
+.articles_ul {flex:1 1 100%;}
+.articles_ul li a{display: flex;justify-content: space-between;}
+.searchBar{visibility:hidden;   transform:translateY(-100px);
+    background-color:lightgreen; left:0; right:0; }
+.searchBar.open{transform: translateY(0);  transition: transform 0.1s; }
+.searchBar input {position:relative; top:0; right:0; color: blue; padding: 10px;}
+#searchClose {position:relative;  color: darksalmon; border:blue solid 2px; }
+.adminTitle{display: flex; justify-content: center;align-items: center;}
+.row{display: flex;justify-content: space-around;}
