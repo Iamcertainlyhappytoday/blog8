@@ -17,7 +17,7 @@ app.use(session({
     secret:'kirknewton',
     resave: false, 
     saveUninitialized : true, 
-    //store:process.env.MONGOBB_URI, cookie:
+    store:process.env.MONGOBB_URI, cookie:
       function(req) {
     var match = req.url.match(/^\/([^/]+)/);
     return {
