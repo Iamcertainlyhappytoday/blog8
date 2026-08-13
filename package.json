@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -25,8 +24,5 @@
     "method-override": "^3.0.0",
     "mongodb": "^7.2.0",
     "mongoose": "^9.6.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  }  
 }
